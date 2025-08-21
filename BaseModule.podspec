@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*.{h,m}'
   s.resource_bundles = { 'BaseModule' => ['Resources/**/*'] }
   
-  # BaseModule 依赖的第三方库
-  s.dependency 'AFNetworking', '~> 4.0'
-  s.dependency 'YYModel'
+#  # BaseModule 依赖的第三方库
+#  s.dependency 'AFNetworking', '~> 4.0'
+#  s.dependency 'YYModel'
 end
